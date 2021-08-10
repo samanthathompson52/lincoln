@@ -8,7 +8,7 @@ var Header = function Header() {
     { className: 'header-background' },
     React.createElement(
       'nav',
-      { 'class': 'navbar sticky-top navbar-expand-lg navbar-light smoothscroll' },
+      { 'class': 'navbar sticky-top navbar-expand-lg smoothscroll' },
       React.createElement(
         'a',
         { 'class': 'navbar-brand', href: '#home' },

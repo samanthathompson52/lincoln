@@ -5,7 +5,7 @@ const Header = () => {
 
   return (  
     <div className = "header-background">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light smoothscroll">
+      <nav class="navbar sticky-top navbar-expand-lg smoothscroll">
     <a class="navbar-brand" href="#home">Lincoln Pediatrics</a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar">

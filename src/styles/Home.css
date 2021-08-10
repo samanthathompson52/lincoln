@@ -1,9 +1,19 @@
 .playground{
-    background-image: url('../pictures/playground.png');
 
-    -ms-background-position-x: center;
-	-ms-background-position-y: bottom;
-	background-position: center bottom;
+  width: 100%;
+  
+  padding: 0px;
+  margin: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  overflow: hidden;
 
-  background-size:cover;
 }
+
+.babypics{
+  margin-bottom: 2vh;
+  height: 18rem;
+  border-radius: 10%;
+  
+}
+

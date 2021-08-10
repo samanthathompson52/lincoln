@@ -1,9 +1,24 @@
 .App {
 	text-align: left;
-	background-color: white;
-	color: white;
+	background-color: #E9E9E9;
+	padding: 0px;
+	margin: 0px;
 }
 
 .section {
 	background-color: #E9E9E9;
+	padding: 2vw;
+}
+
+.content {
+	background-color: white;
+	padding: 2vw;
+}
+
+.line {
+	flex: 1;
+	border-bottom: 0.5vh solid #99D3DF;
+	border-bottom-width: 0.5vh;
+	content: '';
+	width: 100%;
 }
