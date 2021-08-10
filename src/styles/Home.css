@@ -1,0 +1,9 @@
+.playground{
+    background-image: url('../pictures/playground.png');
+
+    -ms-background-position-x: center;
+	-ms-background-position-y: bottom;
+	background-position: center bottom;
+
+  background-size:cover;
+}

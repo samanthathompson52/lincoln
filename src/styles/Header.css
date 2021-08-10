@@ -1,0 +1,29 @@
+.navbar{
+	background-color: white;
+	color: #24305E;
+	font-size: 1.5rem;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+    position: fixed;
+    align-items:baseline;
+    width: fit-content;
+
+}
+
+.navbar-brand{
+    background-color: white;
+    color: #88BBD6;
+    font-size: 3rem;
+    position: relative;
+    align-items: baseline;
+}
+
+.navbar:hover{
+    color: black;
+}
+
+.header-background{
+    background-color: white;
+    background: white;
+}
