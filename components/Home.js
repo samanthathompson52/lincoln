@@ -5,7 +5,6 @@ import baby1 from '../pictures/baby1.png';
 import baby2 from '../pictures/baby2.png';
 import baby3 from '../pictures/baby3.png';
 import baby4 from '../pictures/baby4.png';
-import line from '../pictures/line.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -88,6 +87,7 @@ var Home = function Home() {
         )
       )
     ),
+    's',
     React.createElement(
       'div',
       { className: 'section' },
@@ -96,7 +96,7 @@ var Home = function Home() {
         { className: 'content' },
         React.createElement(
           'h1',
-          null,
+          { className: 'line' },
           'Our Locations'
         ),
         React.createElement(
