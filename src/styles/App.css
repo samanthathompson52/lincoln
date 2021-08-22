@@ -13,7 +13,9 @@
 .content {
 	background-color: white;
 	padding: 2vw;
+	padding-left: 2.5vw;
 }
+
 
 .line {
 	flex: 1;
@@ -26,3 +28,22 @@
 .spacing {
 	padding: 1.5vw;
 }
+
+.nopadding{
+	padding: 0px !important; 
+}
+
+.indent{
+	padding-left: 1vw !important;
+}
+
+.linebreak{
+	padding-bottom: 1.5vw;
+}
+
+h5 a.underline, a.underline:hover, a:link, a:active, a:focus {
+	text-decoration: none !important;
+	color: inherit !important;
+
+} 
+

@@ -1,19 +1,22 @@
 import React from 'react';
 import '../styles/Header.css';
+import {
+  Link
+} from "react-router-dom";
 
 const Header = () => {
 
   return (  
     <div className = "header-background">
       <nav class="navbar sticky-top navbar-expand-lg smoothscroll">
-    <a class="navbar-brand" href="#home">Lincoln Pediatrics</a>
+      <Link class = "navbar-brand" to="/">Lincoln Pediatrics</Link>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar">
-        <a class="nav-item nav-link active" href="#home">Welcome <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#home">About Us</a>
-        <a class="nav-item nav-link" href="#home">Our Services</a>
-        <a class="nav-item nav-link" href="#home">Education</a>
-        <a class="nav-item nav-link" href="#home">Immunization</a>
+        <Link class = "nav-item nav-link" to="/">Home</Link>
+        <Link class = "nav-item nav-link" to="/about">About Us</Link>
+        <Link class = "nav-item nav-link" to="/services">Services</Link>
+        <Link class = "nav-item nav-link" to="/education">Education</Link>
+        <Link class = "nav-item nav-link" to="/immunization">Immunization</Link>
 
       </div>
     </div>
