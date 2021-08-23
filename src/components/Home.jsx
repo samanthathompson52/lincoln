@@ -24,7 +24,7 @@ const Home = () => {
         
     </div>
 
-    <div className = 'section'>
+    <div className = 'section'>2
       <div className = 'content'>
             <Container fluid>
               <Row>
@@ -36,7 +36,10 @@ const Home = () => {
                 <div className = "line"></div>
                 </Col>    
                 <Col xs={5} className="align-items-left nopadding">
-                  <Container fluid>
+
+                         
+
+                  {/* <Container fluid>
                     <Row>
                       <Col>
                         <img src={baby1} alt = "baby one" class = "babypics img-fluid"></img>
@@ -49,7 +52,7 @@ const Home = () => {
                       </Col>
                   
                     </Row>
-                  </Container>
+                  </Container> */}
                 </Col>
               </Row>
             </Container>
@@ -84,8 +87,7 @@ const Home = () => {
                 </Col>
               </Row>
             </Container>
-        <h2>Our main office is located in Michigan City. Please specify which office you would like to be seen at.</h2>
-        <h2>Our offices are open to serve you Monday through Saturday.  We accept all patients and almost all insurances.  We will make every effort to see you the same day or schedule you an appointment within 24 hours.  We are at your service 24 hours a day, 7 days a week, and promise that you will be seen on time.  </h2>
+        <h2>Our offices are open to serve you Monday through Saturday.  We accept all patients and almost all insurances.  We will make every effort to see you the same day or schedule you an appointment within 24 hours.  </h2>
       <div className = "line"></div>
       </div>
 

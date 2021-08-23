@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Education.css';
 
 const Education = () => {
 
@@ -40,6 +39,7 @@ const Education = () => {
                 <h5><a href = "education_files/Well Child Care at 8 Years.pdf" className = 'underline' target = "_blank"> Well Child Care at 8 Years</a></h5>
                 <h5><a href = "education_files/Well Child Care at 10 Years.pdf" className = 'underline' target = "_blank"> Well Child Care at 10 years</a></h5>
 
+                <div className = 'spacing line'></div>
             </div>
         </div>
     
