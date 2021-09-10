@@ -25,7 +25,11 @@ const Services = () => {
                                 <li>Immunizations</li>
                                 <li>Wart removal</li>
                                 <li>Nebulizer Treatment</li>
-                                <li>Consultations (ADHD, Allergy & Asthma, Behavioral Evaluation)</li>
+                                <li>Laboratory Testing - Strep, Urine, RSV, and Influenza Testing</li>
+                                <li>Consultations</li>
+                                <li>ADHD</li> 
+                                <li>Allergy & Asthma</li> 
+                                <li>Behavioral Evaluation</li>
                                 <li>Developmental screening</li>
                                 <li>Asthma Testing (Spirometry)</li>
                                 <li>Tongue-clipping (Frenotomy)</li>

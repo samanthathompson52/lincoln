@@ -24,7 +24,7 @@ const Home = () => {
         
     </div>
 
-    <div className = 'section'>2
+    <div className = 'section'>
       <div className = 'content'>
             <Container fluid>
               <Row>

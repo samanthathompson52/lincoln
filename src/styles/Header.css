@@ -13,12 +13,10 @@
 
 .nav-item{
 	color: #24305E;
-
 	font-size: 1.5rem;
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
 	font-style: normal;
-
     position: relative;
     align-items:baseline;
     width: fit-content;
@@ -38,14 +36,23 @@
 
 
 .nav-item:hover{
-    color: #24305E;
+    color: #88BBD6;
 }
 
 .navbar-brand:hover{
     color: #88BBD6;
 }
 
+.navbar-brand:active{
+    color: #88BBD6 !important; 
+}
+
+.navbar-brand:focus{
+    color: #88BBD6 !important;
+}
+
 .header-background{
     background-color: white;
     background: white;
 }
+
