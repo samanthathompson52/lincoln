@@ -11,7 +11,7 @@ const Services = () => {
     return (  
         <div>
             <div className = "section">
-                <div className = "content">
+                <div className = "content" data-aos = "fade-up">
                     <h1 className = "line">Our Services</h1>
                     <Container fluid>
                         <Row>
@@ -51,7 +51,22 @@ const Services = () => {
             </div>
 
             <div className = "section">
-                <div className = "content">
+                <div className = "content" data-aos = "fade-up">
+                    <h1 className = "line">Well-Routine Visits</h1>
+                    <h3>Information on visits in our office</h3>
+                    <h2>New borns are scheduled to be seen in our office after a few days from the hospital discharge.  In the first two years of your baby's life, you will be scheduled reoutine-well visits on a regular basis.</h2>
+                    <h2>For well visits we do allocate 20 minutes that you will spend with the doctor and the nurses.  Please be prepared to stay longer if immunizations are required at the time of visit.</h2>
+                    <div className = "spacing">
+                        
+                    </div>
+                    <h3>Focus of the visit</h3>
+                    <h2>We ask you to be prepared and organized with any questions you may have about your baby for our physician.  We will focus on the physical exam, discussing developmental milestones, and anticipatory guidance.</h2>
+                    <h2>If any concerns and medical issues arise that need extra time, a follow-up visit will be made for you.  This way other scheduled patients will not experience delays.</h2>
+                </div>
+            </div>
+
+            <div className = "section">
+                <div className = "content" data-aos = "fade-up">
                     <h1 className = "line">Emergencies and Hospitalization</h1>
                     <h2>For any emergency after hours, call the office phone and the answering service will page Dr. Sergiwa.  If your child experiences any of the following symptoms, go to the nearest Emergency Room or call 911:</h2>
                     <Container fluid>

@@ -4,8 +4,8 @@ import '../styles/Fonts.css';
 const Immunization = () => {
 
     return (  
-        <div className = "section">
-            <div className = "content">
+        <div className = "section fullsize">
+            <div className = "content" data-aos = "fade-up">
                 <h1 className = "line">Immunization</h1>
                 <h2>The CDC (Centers for Disease Control and Prevention) provides information on vaccines and their schedule.  Please check out the following links for more information:</h2>
                 <div className = "linebreak">

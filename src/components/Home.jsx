@@ -18,20 +18,21 @@ const Home = () => {
  <div>
     <div>
           <a href="#home"></a>
-          <div>   
-            <img className = 'playground' src = {playground} alt="loader"></img>           
+          <div >   
+            <img className = 'playground' src = {playground} alt="loader" ></img>           
           </div>
         
     </div>
 
     <div className = 'section'>
-      <div className = 'content'>
+      <div className = 'content' data-aos = "fade-up">
             <Container fluid>
               <Row>
                 <Col xs={7} className="align-items-left nopadding">
                 <h1 className = "line">Welcome to our practice!</h1>
                 <h2>We want to thank you for showing interest in our practice!</h2>
                 <h2>Whether you are a new or an established patient, we want to answer any questions you may have regarding Dr. Adam Sergiwa, his practice, or about your child's health.</h2>
+                <h2>Lincoln Pediatrics is an established practice with an exprienced, skilled, and professional staff. At Lincoln Pediatrics, we are dedicated to the health and well being from newborns to the age of 21.</h2>               
                 <h2>Please feel free to browse through our website and if you have any questions or concerns please contact our offices!</h2>
                 <div className = "line"></div>
                 </Col>    
@@ -63,7 +64,7 @@ const Home = () => {
       
 
     <div className = 'section'>
-      <div className = 'content'>
+      <div className = 'content' data-aos = "fade-up">
         <h1 className = "line">Our Locations</h1>
         <Container fluid>
               <Row>

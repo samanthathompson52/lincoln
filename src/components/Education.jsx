@@ -4,7 +4,7 @@ const Education = () => {
 
     return (  
         <div className = "section">
-            <div className = "content">
+            <div className = "content" data-aos = "fade-up">
                 <h1 className = "line">Education</h1>
                 <h2>Please use the following links for additional information on health topics relating to you and your child:</h2>
                 <h5><a href = "education_files/Baby Bottle Tooth Decay Prevention.pdf" className = 'underline' target = "_blank"> Baby Bottle Tooth Decay Prevention</a></h5>

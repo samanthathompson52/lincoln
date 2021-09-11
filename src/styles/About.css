@@ -1,0 +1,18 @@
+.quote-box{
+    background: #E9E9E9;
+    border-left: .7vw solid #24305E;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: 1.2vw;
+    }
+
+.headshot{
+    border: solid #24305E;
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.padding-center{
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+}

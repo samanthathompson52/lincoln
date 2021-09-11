@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './styles/App.css';
 import './styles/Fonts.css';
 import Header from './components/Header.jsx';
@@ -7,15 +7,14 @@ import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Education from './components/Education.jsx';
 import Immunization from './components/Immunization.jsx';
-
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-
 
 
 const App = () => {
@@ -25,6 +24,10 @@ const App = () => {
       setLoading(false);
     }, 2000
   );
+
+  useEffect(() =>{
+    Aos.init({duration: 1500})
+  }, []);
   
   return (
 

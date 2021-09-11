@@ -8,12 +8,18 @@
 .section {
 	background-color: #E9E9E9;
 	padding: 2vw;
+	overflow: hidden;
+}
+
+.fullsize {
+	min-height: 90vh;
 }
 
 .content {
 	background-color: white;
 	padding: 2vw;
 	padding-left: 2.5vw;
+	overflow: hidden;
 }
 
 
