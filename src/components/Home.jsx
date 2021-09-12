@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import '../styles/Home.css';
 import playground from '../pictures/playground.png';
 import baby1 from '../pictures/baby1.png';
@@ -37,6 +38,18 @@ const Home = () => {
                 <div className = "line"></div>
                 </Col>    
                 <Col xs={5} className="align-items-left nopadding">
+
+                <Carousel>
+                  <Carousel.Item>
+                    <img className="babypic" src= {baby1} alt="First slide"/>                                     
+                  </Carousel.Item>
+                  <Carousel.Item>
+                  <img className="babypic" src= {baby2} alt="Second slide"/>                                                      
+                  </Carousel.Item>
+                  <Carousel.Item>
+                  <img className="babypic" src= {baby3} alt="Third slide"/>                                              
+                  </Carousel.Item>
+                </Carousel>
 
                          
 
