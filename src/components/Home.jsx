@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import laporte from '../pictures/LPoffice.png';
 import michigan from '../pictures/MCoffice.png';
+import Image from 'react-bootstrap/Image';
 
 
 const Home = () => {
@@ -81,8 +82,8 @@ const Home = () => {
         <h1 className = "line">Our Locations</h1>
         <Container fluid>
               <Row>
-                <Col xs={6} className="align-items-left nopadding">
-                <img src={michigan} alt = "Michigan City Office Location" class = "locations img-fluid"></img>
+                <Col xs={12} lg={6} className="align-items-left pr-lg-4">
+                <Image src={michigan} alt = "Michigan City Office Location" fluid className="locations pb-2"/>
                 <div className = "indent">
                 <h3>Michigan City Office</h3>
                 <h4>9856 W. County Road 400 N.</h4>
@@ -90,8 +91,9 @@ const Home = () => {
                 <h4>219-878-0882</h4></div>
            
                 </Col>    
-                <Col xs={6} className="align-items-left nopadding">
-                <img src={laporte} alt = "LaPorte Office Location" class = "locations img-fluid"></img>
+                <Col xs={12} lg={6} className="align-items-left pl-lg-4">
+                <Image src={laporte} alt = "Michigan City Office Location" fluid className="locations pb-2"/>
+                {/* <img src={laporte} alt = "LaPorte Office Location" class = "locations img-fluid"></img> */}
                 <div className = "indent">
                 <h3>LaPorte Office</h3>
                 <h4>414 Lincolnway </h4>

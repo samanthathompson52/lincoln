@@ -20,9 +20,7 @@
 
 .locations{
   height: 40vh;
-  width: 41vw;
-  margin-bottom: 2vh;
-  border-radius: 20px;
+  width: 90%;
   object-fit: cover;
-  overflow: hidden;
+  border-radius: 20px !important;
 }
