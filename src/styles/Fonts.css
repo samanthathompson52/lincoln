@@ -94,43 +94,39 @@ h7 {
 
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 3rem
+		font-size: 2rem
 	}
 	h2 {
-		font-size: 1.2rem
+		font-size: 1.1rem
 	}
 	h3 {
-		font-size: 1.2rem
+		font-size: 1.7rem
     }
     h4 {
-        font-size: 3rem;
+        font-size: 1.2rem;
     }
     h5 {
         font-size: 1.2rem;
     }
-    h6 {
-        font-size: 2rem;
-    }
+
 }
 
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     h1 {
-        font-size: 3.2rem;
+        font-size: 2.5rem;
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     h3 {
-		font-size: 1.2rem
+		font-size: 1.9rem
     }
     h4 {
-        font-size: 3rem;
+        font-size: 1.2rem;
     }
     h5 {
         font-size: 1.2rem;
     }
-    h6 {
-        font-size: 2rem;
-    }
+
 }

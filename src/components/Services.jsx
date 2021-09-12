@@ -15,7 +15,7 @@ const Services = () => {
                     <h1 className = "line">Our Services</h1>
                     <Container fluid>
                         <Row>
-                            <Col xs={7} className="align-items-left nopadding">
+                            <Col xs={12} lg={7} className="align-items-left nopadding">
                             <h2>We offer many services for you and your child. Take a look at our services:</h2>
                             <ul>
                                 <h2>
@@ -40,9 +40,13 @@ const Services = () => {
                                 </h2>
                             </ul>
                             </Col>    
-                            <Col xs={5} className="align-items-left nopadding">
-                                <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" class = "babypics img-fluid"></img>
-                                <img src={baby5} alt = "baby five" class = "babypics img-fluid"></img>
+                            <Col lg={5} className="align-items-left nopadding d-none d-lg-block">
+                                <Container fluid className = "float-right">
+                                    
+                                <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" class = "portrait img-fluid"></img>
+                                {/* <img src={baby5} alt = "baby five" class = "babypics img-fluid"></img> */}
+
+                                </Container>
                             </Col>
                         </Row>
                     </Container>

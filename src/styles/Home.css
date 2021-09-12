@@ -11,9 +11,8 @@
 }
 
 .babypics{
-  margin-bottom: 2vh;
-  height: 18rem;
   border-radius: 10%;
+  width: 100%;
   object-fit: cover;
   overflow: hidden;
   }
@@ -23,4 +22,16 @@
   width: 90%;
   object-fit: cover;
   border-radius: 20px !important;
+}
+
+
+.carousel{  
+  margin-left: 2vw;
+  width: auto;  
+}
+
+.carousel-item .img-fluid{
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover !important;
 }

@@ -14,12 +14,12 @@ const About = () => {
                 <h1 className = "line">About Us</h1>
                 <Container fluid>
               <Row>
-                <Col xs={3} className="align-items-left nopadding">
+                <Col xs={12} lg={3} className="align-items-left nopadding">
                 <div className = "padding-center">
                   <img src={headshot} alt = "Dr. Sergiwa" class = " img-fluid headshot"></img>
 
 
-                  <div className = "quote-box">
+                  <div className = "quote-box d-none d-lg-block">
                     <h6>"On behalf of Lincoln Pediatrics, I want you to know that you and your children are our highest priority.  We want your experience to be pleasant and fulfilling, and we will do all we can to make this so.  I want to thank you once more for choosing us as your health care provider."</h6>
                     <h7>- Dr. Sergiwa</h7>
                   </div>

@@ -1,0 +1,10 @@
+.portrait{
+    width: auto;
+    height: 55vh;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+    align-items:baseline;
+    float: right;
+    
+}

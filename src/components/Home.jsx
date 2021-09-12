@@ -3,9 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import '../styles/Home.css';
 import playground from '../pictures/playground.png';
 import baby1 from '../pictures/baby1.png';
-import baby2 from '../pictures/baby2.png';
-import baby3 from '../pictures/baby3.png';
-import baby4 from '../pictures/baby4.png';
+import doctor1 from '../pictures/doctor1.png';
+import doctor2 from '../pictures/doctor2.png';
+import frontdesk from '../pictures/frontdesk.png';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -30,27 +30,34 @@ const Home = () => {
       <div className = 'content' data-aos = "fade-up">
             <Container fluid>
               <Row>
-                <Col xs={7} className="align-items-left nopadding">
-                <h1 className = "line">Welcome to our practice!</h1>
-                <h2>We want to thank you for showing interest in our practice!</h2>
-                <h2>Whether you are a new or an established patient, we want to answer any questions you may have regarding Dr. Adam Sergiwa, his practice, or about your child's health.</h2>
-                <h2>Lincoln Pediatrics is an established practice with an exprienced, skilled, and professional staff. At Lincoln Pediatrics, we are dedicated to the health and well being from newborns to the age of 21.</h2>               
-                <h2>Please feel free to browse through our website and if you have any questions or concerns please contact our offices!</h2>
-                <div className = "line"></div>
+                <Col xs={12} lg={7} className="align-items-left nopadding d-flex">
+                  <div>
+                    <h1 className = "line">Welcome to our practice!</h1>
+                    <h2>We want to thank you for showing interest in our practice!</h2>
+                    <h2>Whether you are a new or an established patient, we want to answer any questions you may have regarding Dr. Adam Sergiwa, his practice, or about your child's health.</h2>
+                    <h2>Lincoln Pediatrics is an established practice with an exprienced, skilled, and professional staff. At Lincoln Pediatrics, we are dedicated to the health and well being from newborns to the age of 21.</h2>               
+                    <h2>Please feel free to browse through our website and if you have any questions or concerns please contact our offices!</h2>
+                    <div className = "line"></div>
+                  </div>
                 </Col>    
-                <Col xs={5} className="align-items-left nopadding">
-
-                <Carousel>
-                  <Carousel.Item>
-                    <img className="babypic" src= {baby1} alt="First slide"/>                                     
-                  </Carousel.Item>
-                  <Carousel.Item>
-                  <img className="babypic" src= {baby2} alt="Second slide"/>                                                      
-                  </Carousel.Item>
-                  <Carousel.Item>
-                  <img className="babypic" src= {baby3} alt="Third slide"/>                                              
-                  </Carousel.Item>
-                </Carousel>
+                <Col xs={5} className="align-items-left nopadding d-none d-lg-flex">
+                
+                <Container fluid d-flex align-items-center>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img className = "img-fluid" src= {baby1} alt="First slide"/>                                     
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="img-fluid" src= {frontdesk} alt="Second slide"/>                                                      
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="img-fluid" src= {doctor1} alt="Third slide"/>                                              
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="img-fluid" src= {doctor2} alt="Fourth slide"/>                                                      
+                    </Carousel.Item>
+                  </Carousel>
+                </Container>
 
                          
 
