@@ -19,8 +19,7 @@ const Home = () => {
     
  <div>
     <div>
-          <a href="#home"></a>
-          <div >   
+]         <div >   
             <img className = 'playground' src = {playground} alt="loader" ></img>           
           </div>
         

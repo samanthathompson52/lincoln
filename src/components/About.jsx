@@ -27,7 +27,7 @@ const About = () => {
 
                     
                 </Col>    
-                <Col xs={9} className="align-items-left nopadding">
+                <Col xs={12} lg={9} className="align-items-left nopadding">
                     <h3>Sergiwa Adam M.D.</h3>
                     <h2>Dr. Sergiwa is a well-established pediatrician, bringing with him extensive experience and our skills in pediatrics, newborns. adolescents, and young adults.</h2>
                     <h2>He gained much of his experience during his intensive training in United Kingdom and USA at Columbia University in Manhattan, NY.  During his work experience here in LaPorte and at one of the largest university hospitals in London, he worked as lead clinician and educator in pediatric diabetes, endocrinology and eating disorders.</h2>
@@ -36,8 +36,10 @@ const About = () => {
                     <h4 className = "bold">Hospital Affiliations</h4>
                     <h2>Dr. Sergiwa is an active staff member at the following hospitals:</h2>
                     <ul>
-                        <h4><li>St. Anthony Memorial Hospital, Michigan City</li>
-                        <li>Memorial Children's Hospital, South Bend</li></h4>
+                      <div>
+                       <h2><li>St. Anthony Memorial Hospital, Michigan City</li>
+                        <li>Memorial Children's Hospital, South Bend</li></h2>
+                      </div>
                     </ul>
                     <div className = "linebreak"></div>
 

@@ -17,13 +17,13 @@ const Education = () => {
                 <h5><a href = "education_files/Healthy Diet Teen Version.pdf" className = 'underline' target = "_blank"> Healthy Diet Teen Version</a></h5>
                 <h5><a href = "education_files/Healthy Diet.pdf" className = 'underline' target = "_blank"> Healthy Diet</a></h5>
                 <h5><a href = "education_files/Newborn Skin Care Normal.pdf" className = 'underline' target = "_blank"> Newborn Skin Care Normal </a></h5>
-                <h5><a href = "education_files/Preventing or Reducing a Child's Aggressive Behavior.pdf" className = 'underline' target = "_blank"> Preventing or Reducing a Child's Aggressive Behavior</a></h5>
+                <h5><a href = "education_files/Preventing or Reducing a Child's Aggressive Behavior.pdf" className = 'underline' target = "_blank"> Reducing a Child's Aggressive Behavior</a></h5>
                 <h5><a href = "education_files/Puberty for Boys.pdf" className = 'underline' target = "_blank"> Puberty for Boys</a></h5>
                 <h5><a href = "education_files/Puberty for Girls.pdf" className = 'underline' target = "_blank"> Puberty for Girls</a></h5>
                 <h5><a href = "education_files/Sibling Quarrels.pdf" className = 'underline' target = "_blank"> Sibling Quarrels</a></h5>
                 <h5><a href = "education_files/Sibling Rivalry toward a Newborn.pdf" className = 'underline' target = "_blank"> Sibling Rivalry toward a Newborn</a></h5>
                 <h5><a href = "education_files/Sleep Position for Young Infants.pdf" className = 'underline' target = "_blank"> Sleep Position for Young Infants</a></h5>
-                <h5><a href = "education_files/Smoke, Heat and Carbon Monoxide Detectors.pdf" className = 'underline' target = "_blank"> Smoke, Heat, and Carbon Monoxide Detectors</a></h5>
+                <h5><a href = "education_files/Smoke, Heat and Carbon Monoxide Detectors.pdf" className = 'underline' target = "_blank"> Smoke, Heat, & Carbon Monoxide Detectors</a></h5>
                 <h5><a href = "education_files/Solid (Strained) Foods.pdf" className = 'underline' target = "_blank"> Solid (Strained) Food</a></h5>
                 <h5><a href = "education_files/Tips for Car Travel After the First Year.pdf" className = 'underline' target = "_blank"> Tips for Car Travel after the First Year</a></h5>                
                 <h5><a href = "education_files/Well Child Care at 4 months.pdf" className = 'underline' target = "_blank"> Well Child Care at 4 months</a></h5>
