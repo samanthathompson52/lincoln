@@ -40,11 +40,8 @@ const Services = () => {
                             </ul>
                             </Col>    
                             <Col lg={5} className="align-items-left nopadding d-none d-lg-block">
-                                <Container fluid className = "float-right">
-                                    
+                                <Container fluid className = "float-right">                                  
                                 <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" class = "portrait img-fluid"></img>
-                                {/* <img src={baby5} alt = "baby five" class = "babypics img-fluid"></img> */}
-
                                 </Container>
                             </Col>
                         </Row>
@@ -59,9 +56,7 @@ const Services = () => {
                     <h3>Information on visits in our office</h3>
                     <h2>New borns are scheduled to be seen in our office after a few days from the hospital discharge.  In the first two years of your baby's life, you will be scheduled reoutine-well visits on a regular basis.</h2>
                     <h2>For well visits we do allocate 20 minutes that you will spend with the doctor and the nurses.  Please be prepared to stay longer if immunizations are required at the time of visit.</h2>
-                    <div className = "spacing">
-                        
-                    </div>
+                    <div className = "spacing"></div>
                     <h3>Focus of the visit</h3>
                     <h2>We ask you to be prepared and organized with any questions you may have about your baby for our physician.  We will focus on the physical exam, discussing developmental milestones, and anticipatory guidance.</h2>
                     <h2>If any concerns and medical issues arise that need extra time, a follow-up visit will be made for you.  This way other scheduled patients will not experience delays.</h2>
@@ -79,7 +74,7 @@ const Services = () => {
                                 <h2>
                                 <li>Overdose</li>
                                 <li>Poisoning</li>
-                                <li>Temperature over 103.5</li>
+                                <li>High fevers</li>
                                 <li>Unconsciousness</li>
                                 <li>Difficulty Breathing</li>
                                 <li>Convulsions</li>

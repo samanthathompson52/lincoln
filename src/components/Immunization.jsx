@@ -19,8 +19,7 @@ const Immunization = () => {
                 </div>
                 <div className = "line"></div>
             </div>
-        </div>
-    
+        </div>  
     );
   }
   
