@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../styles/Header.css';
 import {
   Link
 } from "react-router-dom";
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import LanguageContext from '../languages/LanguageContext';
 
-const Header = ({isSpanish, setSpanish}) => {
+const Header = () => {
+
+  const context = useContext(LanguageContext);
+  const isSpanish = context.isSpanish;
+  const setSpanish = context.setSpanish;
 
   const onClick = (e) => {
     setSpanish(e.target.checked);

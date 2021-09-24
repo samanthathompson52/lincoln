@@ -25,6 +25,8 @@ const App = () => {
   const [isSpanish, setSpanish] = useState(defaultEs || false);
 
   const provider = {
+    isSpanish: isSpanish,
+    setSpanish: setSpanish,
     dict: Dictionary[!isSpanish ? "en" : "es"] || Dictionary["en"]
   }
 
@@ -36,7 +38,7 @@ const App = () => {
 
     <Router>
     <LanguageContext.Provider value={provider}>
-      <Header isSpanish={isSpanish} setSpanish={setSpanish}/>
+      <Header />
       <Switch>
 
         <Route path="/about"> 
