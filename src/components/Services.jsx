@@ -41,7 +41,7 @@ const Services = () => {
                             </Col>    
                             <Col lg={5} className="align-items-left nopadding d-none d-lg-block">
                                 <Container fluid className = "float-right">                                  
-                                <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" class = "portrait img-fluid"></img>
+                                <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" className = "portrait img-fluid"></img>
                                 </Container>
                             </Col>
                         </Row>
