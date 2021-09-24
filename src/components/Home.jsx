@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
 import laporte from '../pictures/LPoffice.png';
 import michigan from '../pictures/MCoffice.png';
 import Image from 'react-bootstrap/Image';
-
+import Text from './Text';
 
 const Home = () => {
   return (
@@ -30,17 +30,17 @@ const Home = () => {
             <Row>
               <Col xs={12} lg={7} className="align-items-left nopadding d-flex">
                 <div>
-                  <h1 className = "line">Welcome to our practice!</h1>
-                  <h2>We want to thank you for showing interest in our practice!</h2>
-                  <h2>Whether you are a new or an established patient, we want to answer any questions you may have regarding Dr. Adam Sergiwa, his practice, or about your child's health.</h2>
-                  <h2>Lincoln Pediatrics is an established practice with an exprienced, skilled, and professional staff. At Lincoln Pediatrics, we are dedicated to the health and well being from newborns to the age of 21.</h2>               
-                  <h2>Please feel free to browse through our website and if you have any questions or concerns please contact our offices!</h2>
+                  <h1 className = "line"><Text id={"h-welcome"} /></h1>
+                  <h2><Text id={"h-i1"} /></h2>
+                  <h2><Text id={"h-i2"} /></h2>
+                  <h2><Text id={"h-i3"} /></h2>               
+                  <h2><Text id={"h-i4"} /></h2>
                   <div className = "line"></div>
                 </div>
               </Col> 
 
               <Col xs={5} className="align-items-left nopadding d-none d-lg-flex">               
-                <Container fluid d-flex align-items-center>
+                <Container fluid className="d-flex align-items-center">
                   <Carousel>
                     <Carousel.Item>
                       <img className = "img-fluid" src= {baby1} alt="First slide"/>                                     

@@ -9,6 +9,8 @@ import Education from './components/Education.jsx';
 import Immunization from './components/Immunization.jsx';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import LanguageContext from './languages/LanguageContext';
+import Dictionary from './languages/Dictionary.js';
 
 import {
   BrowserRouter as Router,
@@ -18,12 +20,13 @@ import {
 
 
 const App = () => {
-  const [Loading, setLoading] = useState(true);
   
-  setTimeout(()=>{
-      setLoading(false);
-    }, 2000
-  );
+  const defaultEs = window.localStorage.getItem('rcml-lang') === "es";
+  const [isSpanish, setSpanish] = useState(defaultEs || false);
+
+  const provider = {
+    dict: Dictionary[!isSpanish ? "en" : "es"] || Dictionary["en"]
+  }
 
   useEffect(() =>{
     Aos.init({duration: 1500})
@@ -32,9 +35,9 @@ const App = () => {
   return (
 
     <Router>
-    <div> 
-    <Header />
-     <Switch>
+    <LanguageContext.Provider value={provider}>
+      <Header isSpanish={isSpanish} setSpanish={setSpanish}/>
+      <Switch>
 
         <Route path="/about"> 
           <About />
@@ -53,13 +56,13 @@ const App = () => {
         </Route>
 
         <Route path="/"> 
-          <div className={Loading}>
+          <div>
            <Home />
           </div>
         </Route>
 
       </Switch> 
-    </div>    
+    </LanguageContext.Provider>    
     </Router>
     
   );

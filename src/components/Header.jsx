@@ -5,7 +5,11 @@ import {
 } from "react-router-dom";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
-const Header = () => {
+const Header = ({isSpanish, setSpanish}) => {
+
+  const onClick = (e) => {
+    setSpanish(e.target.checked);
+  };
 
   return (  
   <div className = "header-background">
@@ -15,18 +19,18 @@ const Header = () => {
         <Navbar.Toggle aria-controls="lincoln-header" className="ml-auto"/>
           <Navbar.Collapse id="lincoln-header">
             <Nav className="ml-auto">
-              <Link class = "nav-item" to="/">Home</Link>
-              <Link class = "nav-item" to="/about">About Us</Link>
-              <Link class = "nav-item" to="/services">Services</Link>
-              <Link class = "nav-item" to="/education">Education</Link>
-              <Link class = "nav-item" to="/immunization">Immunization</Link>
+              <Link className = "nav-item" to="/">Home</Link>
+              <Link className = "nav-item" to="/about">About Us</Link>
+              <Link className = "nav-item" to="/services">Services</Link>
+              <Link className = "nav-item" to="/education">Education</Link>
+              <Link className = "nav-item" to="/immunization">Immunization</Link>
             </Nav>
             <div className="pt-3">
-            <label class="switch">
-              <input id = "language-toggle" class="check-toggle check-toggle-round-flat " type="checkbox" />
-              <label for="language-toggle"></label>
-              <span class="on">En</span>
-            <span class="off">ES</span>
+            <label className="switch">
+              <input id = "language-toggle" className="check-toggle check-toggle-round-flat " type="checkbox" checked={isSpanish} onChange={onClick}/>
+              <label htmlFor="language-toggle"></label>
+              <span className="on">En</span>
+              <span className="off">ES</span>
             </label>
           </div>
           </Navbar.Collapse>
