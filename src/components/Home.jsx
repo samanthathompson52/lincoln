@@ -66,33 +66,33 @@ const Home = () => {
 
     <div className = 'section'>
       <div className = 'content' data-aos = "fade-up">
-        <h1 className = "line">Our Locations</h1>
+        <h1 className = "line"><Text id={"loc"} /></h1>
         <Container fluid>
             <Row>
               <Col xs={12} lg={6} className="align-items-left pr-lg-4">
               <Image src={michigan} alt = "Michigan City Office Location" fluid className="locations pb-2"/>
               <div className = "indent">
-                <h3>Michigan City Office</h3>
-                <h4>9856 W. County Road 400 N.</h4>
-                <h4>Michigan City, IN 46360</h4>
-                <h4>219-878-0882</h4>
+                <h3><Text id={"mc"} /></h3>
+                <h4><Text id={"mcAddr"} /></h4>
+                <h4><Text id={"mcSt"} /></h4>
+                <h4><Text id={"mcPh"} /></h4>
               </div>         
               </Col>   
 
               <Col xs={12} lg={6} className="align-items-left pl-lg-4">
                 <Image src={laporte} alt = "Michigan City Office Location" fluid className="locations pb-2"/>
                 <div className = "indent">
-                  <h3>LaPorte Office</h3>
-                  <h4>414 Lincolnway </h4>
-                  <h4>La Porte, IN 46350</h4>
-                  <h4>219-326-5400</h4>
+                  <h3><Text id={"lp"} /></h3>
+                  <h4><Text id={"lpAddr"} /></h4>
+                  <h4><Text id={"lpSt"} /></h4>
+                  <h4><Text id={"lpPh"} /></h4>
                 </div>
                 <div className = "spacing"></div>
               </Col>
             </Row>
           </Container>
 
-        <h2>Our offices are open to serve you Monday through Saturday.  We accept all patients and almost all insurances.  We will make every effort to see you the same day or schedule you an appointment within 24 hours.  </h2>
+        <h2><Text id={"hours"} /></h2>
         <div className = "line"></div>
       </div>
     </div>
