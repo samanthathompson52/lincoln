@@ -66,6 +66,7 @@ const Services = () => {
                     <h3><Text id={"s-focus"} /></h3>
                     <h2><Text id={"s-f1"} /></h2>
                     <h2><Text id={"s-f2"} /></h2>
+                    <div className = 'line'></div>
                 </div>
             </div>
 
