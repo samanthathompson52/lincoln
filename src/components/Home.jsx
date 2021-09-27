@@ -5,6 +5,8 @@ import playground from '../pictures/playground.png';
 import baby1 from '../pictures/baby1.png';
 import doctor1 from '../pictures/doctor1.png';
 import doctor2 from '../pictures/doctor2.png';
+import drBaby1 from '../pictures/drBaby.png';
+import drBaby2 from '../pictures/drBaby2.png';
 import frontdesk from '../pictures/frontdesk.png';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -52,7 +54,13 @@ const Home = () => {
                       <img className="img-fluid" src= {doctor1} alt="Third slide"/>                                              
                     </Carousel.Item>
                     <Carousel.Item>
-                      <img className="img-fluid" src= {doctor2} alt="Fourth slide"/>                                                      
+                      <img className="img-fluid" src= {drBaby1} alt="Fourth slide"/>                                                      
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="img-fluid" src= {doctor2} alt="Fifth slide"/>                                                      
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="img-fluid" src= {drBaby2} alt="Sixth slide"/>                                                      
                     </Carousel.Item>
                   </Carousel>
                 </Container>                             
