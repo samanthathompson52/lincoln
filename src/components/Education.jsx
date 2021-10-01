@@ -9,7 +9,7 @@ const Education = () => {
         files.push(`f-${i}`)
     }
     const filesHtml = files.map(e => (
-        <h5 key={e}><a href ={`education_files/${Files[e]}.pdf`} className = 'underline' target = "_blank">
+        <h5 key={e}><a href ={`education_files/${Files[e]}.pdf`} className = 'underline' target = "_blank"  rel="noreferrer">
             <Text id={e} />
         </a></h5>
     ));
