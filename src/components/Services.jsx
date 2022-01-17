@@ -3,7 +3,7 @@ import '../styles/Services.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import lincolnbaby from '../pictures/lincoln-baby.png';
+import lincolnbaby from '../pictures/services.jpg';
 import Text from './Text';
 
 const Services = () => {
