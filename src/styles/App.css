@@ -22,7 +22,6 @@
 	overflow: hidden;
 }
 
-
 .line {
 	flex: 1;
 	border-bottom: 0.5vh solid #99D3DF;
@@ -50,6 +49,5 @@
 h5 a.underline, a.underline:hover, a:link, a:active, a:focus {
 	text-decoration: none !important;
 	color: inherit !important;
-
 } 
 
