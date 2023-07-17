@@ -19,11 +19,11 @@ const Education = () => {
             <div className = "content" data-aos = "fade-up">
                 <h1 className = "line"><Text id={"education"} /></h1>
                 <h2><Text id={"downloads"} /></h2>
+                <h5><a href = "https://www.healthychildren.org/English/safety-prevention/at-home/medication-safety/Pages/Acetaminophen-for-Fever-and-Pain.aspx" className = "underline" target = "_blank" rel="noreferrer"><Text id={"fever"} /></a></h5>
+                <h5><a href = "https://www.tylenolprofessional.com/dosage" className = "underline" target = "_blank" rel="noreferrer"><Text id={"tylenol"} /></a></h5>
                 {filesHtml}
-                <div className = 'spacing line'></div>
             </div>
         </div>
-    
     );
   }
   

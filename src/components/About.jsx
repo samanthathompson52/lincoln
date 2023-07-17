@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import DrSergiwa from '../pictures/Headshot-DrSergiwa.png';
-import VictiriaSergiwa from '../pictures/Headshot-VictiriaSergiwa.jpg';
+import VictoriaSergiwa from '../pictures/Headshot-VictoriaSergiwa.jpg';
 import Text from './Text';
 
 const About = () => {
@@ -51,15 +51,17 @@ const About = () => {
               <Container fluid>
                   <Row>
                     <Col xs={12} lg={9} className="align-items-left nopadding">
-                      <h3>Victiria Markovic Sergiwa</h3>
+                      <h3>Victoria Markovic Sergiwa</h3>
                       <h4 className = "bold">Administrative Director</h4>
                       <div className = "linebreak"></div>
-                      <h2><Text id={"a-i1"} /></h2>
-                      <h2><Text id={"a-i2"} /></h2>
+                      <div className='pr-4'>
+                      <h2><Text id={"a-i4"} /></h2>
+                      <h2><Text id={"a-i5"} /></h2>
+                      </div>
                       <div className = "linebreak"></div>
                     </Col>
                     <Col xs={12} lg={3} className="align-items-left nopadding">
-                        <img src={VictiriaSergiwa} alt = "Victiria Markovic Sergiwa" className = "img-fluid headshot-2"></img>                       
+                      <img src={VictoriaSergiwa} alt = "Victoria Markovic Sergiwa" className = "img-fluid headshot-2"></img>                       
                     </Col> 
                   </Row>
                 </Container>

@@ -46,8 +46,8 @@ const Services = () => {
                             </ul>
                             </Col>    
                             <Col lg={5} className="align-items-left nopadding d-none d-lg-block">
-                                <Container fluid className = "float-right">                                  
-                                <img src={lincolnbaby} alt = "Dr. Lincoln with a newborn" className = "portrait img-fluid"></img>
+                                <Container fluid className = "float-right pb-4">                                  
+                                <img src={lincolnbaby} alt = "Dr. Sergiwa with a newborn" className = "portrait img-fluid"></img>
                                 </Container>
                             </Col>
                         </Row>
