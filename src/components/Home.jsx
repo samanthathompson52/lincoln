@@ -77,7 +77,7 @@ const Home = () => {
         <h1 className = "line"><Text id={"loc"} /></h1>
         <Container fluid>
             <Row>
-              <Col xs={12} lg={6} className="align-items-left pr-lg-4">
+              <Col xs={12} lg={12} className="align-items-left pr-lg-4">
               <div className='pr-md-4 pb-3'>
                 <Image src={michigan} alt = "Michigan City Office Location" fluid className="locations"/>
               </div>
@@ -87,20 +87,8 @@ const Home = () => {
                 <h4><Text id={"mcSt"} /></h4>
                 <h4><Text id={"mcPh"} /></h4>
               </div>         
+              <div className = "spacing"></div>
               </Col>   
-
-              <Col xs={12} lg={6} className="align-items-left pl-lg-4">
-                <div className='pr-md-4 pb-3'>
-                  <Image src={laporte} alt = "Michigan City Office Location" fluid className="locations"/>
-                </div>
-                <div className = "indent">
-                  <h3><Text id={"lp"} /></h3>
-                  <h4><Text id={"lpAddr"} /></h4>
-                  <h4><Text id={"lpSt"} /></h4>
-                  <h4><Text id={"lpPh"} /></h4>
-                </div>
-                <div className = "spacing"></div>
-              </Col>
             </Row>
           </Container>
 
