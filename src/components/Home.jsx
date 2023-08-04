@@ -11,7 +11,6 @@ import frontdesk from '../pictures/frontdesk.png';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import laporte from '../pictures/LPoffice.png';
 import michigan from '../pictures/MCoffice.png';
 import Image from 'react-bootstrap/Image';
 import Text from './Text';
